@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+        <title>FreeEDA</title>
+        <!-- All the necessary css files are added here !-->
+        
+        <link rel="shortcut icon" href="jquery/oscad_old/images/favicon.ico">
+        <link rel="stylesheet" href="jquery/OSCAD_files/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="jquery/OSCAD_files/font-awesome.min.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="jquery/OSCAD_files/main.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="jquery_ui/jquery-ui.css">
+        <link rel="stylesheet" href="jquery_ui/style.css">
+    </head>
+    <body>
+    <!-- creating the framework of the page with div elements!-->
+        <div id="page-wrapper">
+            <div id="header-wrapper">
+                <div id="header-inner">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container col-lg-12 col-md-12 col-sm-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span title="" data-original-title="" class="sr-only">Toggle navigation</span>
+                                    <span title="" data-original-title="" class="icon-bar"></span>
+                                    <span title="" data-original-title="" class="icon-bar"></span>
+                                    <span title="" data-original-title="" class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="jquery/OSCAD_files/OSCAD.html">
+                                    <img id="logo" src="jquery/OSCAD_files/logo.png">
+                                    <span class="site-name">FreeEDA</span>
+                                </a>
+                            </div> <!-- /.navbar-header -->
+                        </div> <!-- /.container -->
+                    </nav><!-- / .navbar -->
+                </div> <!-- /#header-inner -->
+            </div><!-- /#header-wrapper -->
+            <div id="content-wrapper">
+                <div id="content-inner">
+                    <div class="container col-lg-12 col-md-12 col-sm-12" id="content">
+                        <div class="table-responsive">
+                            <table class="table" rules="none" style="border-color: rgb(0, 0, 0); background-color: rgb(220, 220, 220);">
+                                <tr class="row">
+                                    <td class="col-lg-12 col-md-12 col-sm-12">
+                                        <!-- svg area !-->
+                                        <svg  class="svg-main" tabindex="1" style="background-image:url('jquery/icons/back.png'); height: 450px;"; outline: none;" class="svg-main"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+                                            <g id="viewport" transform="matrix(1,0,0,1,0,0)"></g>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr class="row">
+                                    <td class="toolbox-col col-lg-1 col2-md-12 col-sm-12" style="vertical-align: top;">
+                                        <!-- toolbox area with various components icons !-->
+                                        <img class="cursor" src="jquery/icons/cursor.png" width="40" height="40");" title="Cursor">
+                                        <img class="wire" src="jquery/icons/wire.GIF" width="40" height="40");" title="Wire" >
+                                        <img class="resistor" src="jquery/icons/resistor.GIF" width="40" height="40");"  title="Resistor" >
+                                        <img class="variableresistor" src="jquery/icons/variable resistor.GIF" width="40" height="40");" title="Variable Resistor">
+                                        <img class="inductor" src="jquery/icons/inductor.GIF" width="40" height="40");"  title="Inductor">
+                                        <img class="variableinductor" src="jquery/icons/variable inductor.GIF" width="40" height="40");" title="Variable Inductor">
+                                        
+                                        <img class="capacitor" src="jquery/icons/capacitor.GIF" width="40" height="40");" title="capacitor" title="Capacitor">
+                                        <img class="variablecapacitor" src="jquery/icons/variable capacitor.GIF" width="40" height="40");" title="Variable Capacitor">
+                                        <img class="ground" src="jquery/icons/ground.GIF" width="40" height="40");" title="Ground">
+                                        <img class="battery" src="jquery/icons/battery.GIF" width="40" height="40");" title="Battery">
+                                        <img class="currentsource" src="jquery/icons/currentsource.png" width="40" height="40");" title="Current Source">
+                                        <img class="voltagesource" src="jquery/icons/voltagesource.png" width="40" height="40");" title="Voltage Source">
+                                        <img class="diode" src="jquery/icons/diode.GIF" width="40" height="40");" title="Diode">
+                                        <img class="photodiode" src="jquery/icons/photodiode.GIF" width="40" height="40");" title="Photodiode">
+                                        <img class="zenerdiode" src="jquery/icons/zener diode.GIF" width="40" height="40");" title="Zenerdiode">
+                                        <img class="fuse" src="jquery/icons/fuse.GIF" width="40" height="40");" title="Fuse">
+                                        <img class="npntransistor" src="jquery/icons/NPN transistor.GIF" width="40" height="40");" title="NPN Transistor">
+                                        <img class="pnptransistor" src="jquery/icons/PNP transistor.GIF" width="40" height="40");" title="PNP Transistor">                      
+                                        <img class="ammeter" src="jquery/icons/ammeter.GIF" width="40" height="40");" title="Ammeter">
+                                        <img class="andgate" src="jquery/icons/AND gate.GIF" width="40" height="40");" title="AND gate">
+                                        <img class="orgate" src="jquery/icons/OR gate.GIF" width="40" height="40");" title="OR gate">
+                                        <img class="norgate" src="jquery/icons/NOR gate.GIF" width="40" height="40");" title="NOR gate">
+                                        <img class="notgate" src="jquery/icons/NOT gate.GIF" width="40" height="40");" title="NOT gate">
+                                        <img class="nandgate" src="jquery/icons/NAND gate.GIF" width="40" height="40");" title="NAND gate">
+                                        <img class="xorgate" src="jquery/icons/XOR gate.GIF" width="40" height="40");" title="XOR gate">
+                                        <img class="dflipflop" src="jquery/icons/D flip-flop.GIF" width="40" height="40");" title="D flipflop">
+                                    </td>
+                                </tr>
+                                <tr><td colspan="2"><div style="height: 18px;"></div></td></tr>
+                            </table>
+                        </div>
+                    </div><!-- /.container -->
+                </div><!-- /#content-inner -->
+            </div><!-- /#content-wrapper -->
+        </div><!-- /#page-wrapper -->
+        <!-- all script code goes here including the defenition of js,jq and svg !-->
+        <script src="jquery_ui/jquery-1.10.2.js"></script>
+        <script src="jquery_ui/jquery-ui.js"></script>
+        <script src="jquery/test.js" type="text/javascript"></script>
+        <script src="jquery/SVGPan.js" type="text/javascript"></script>
+        <script src="jquery/jquery-1.11.1.js"></script>
+        <script src="jquery/jquery-ui.js"></script>
+        <script src="jquery_ui/j.js"></script> 
+        <script src="jquery_ui/input.js"></script>
+        <div id="dialog" title="Basic dialog" style="display:none">
+        <!-- this is used for adding feilds in jquery ui box!-->
+        <form>
+            <input type="hidden" name="id1" id ='component-id'><br>
+            Componentval: <input type="text" name="val1" id ='component-val'><br>
+            <input class="cat" type="button" value="Submit" onclick="loop();">
+       </form>
+    </div>
+        <p>
+        <i>Copyright © 2014 Indian Institute Of Technology Bombay</i>
+        </p>
+    </body>
+</html>
